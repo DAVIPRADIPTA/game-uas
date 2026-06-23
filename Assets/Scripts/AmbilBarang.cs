@@ -26,7 +26,7 @@ public class AmbilBarang : MonoBehaviour
         }
     }
 
-    void CobaAmbil()
+    public void CobaAmbil()
     {
         RaycastHit infoTabrakan;
         if (Physics.Raycast(kameraPemain.transform.position, kameraPemain.transform.forward, out infoTabrakan, jarakAmbil))

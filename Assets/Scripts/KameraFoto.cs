@@ -23,7 +23,7 @@ public class KameraFoto : MonoBehaviour
         }
     }
 
-    void AmbilFoto()
+    public void AmbilFoto()
     {
         StartCoroutine(MainkanEfekFlash());
 
